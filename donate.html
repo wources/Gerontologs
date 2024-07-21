@@ -133,11 +133,11 @@
 
                         <div class="col-lg-6 col-12 mx-auto">
                             <form class="custom-form donate-form" action="#" method="get" role="form">
-                                <h3 class="mb-4">Make a donation</h3>
+                                <h3 class="mb-4">Danışmanlık Al</h3>
 
                                 <div class="row">
                                     <div class="col-lg-12 col-12">
-                                        <h5 class="mb-3">Donation Frequency</h5>
+                                        <h5 class="mb-3">Danışma Türü</h5>
                                     </div>
 
                                     <div class="col-lg-6 col-6 form-check-group form-check-group-donation-frequency">
@@ -145,7 +145,7 @@
                                             <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyOne" checked>
                                             
                                             <label class="form-check-label" for="DonationFrequencyOne">
-                                                One Time
+                                                Yüzyüze Danışmanlık
                                             </label>
                                         </div>
                                     </div>
@@ -155,111 +155,49 @@
                                             <input class="form-check-input" type="radio" name="DonationFrequency" id="DonationFrequencyMonthly">
                                             
                                             <label class="form-check-label" for="DonationFrequencyMonthly">
-                                                Monthly
+                                                Offline Danışmanlık
                                             </label>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 col-12">
-                                        <h5 class="mt-2 mb-3">Select an amount</h5>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                $10
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                                            <label class="form-check-label" for="flexRadioDefault2">
-                                                $15
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                                            <label class="form-check-label" for="flexRadioDefault3">
-                                                $20
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                                            <label class="form-check-label" for="flexRadioDefault4">
-                                                $30
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                                            <label class="form-check-label" for="flexRadioDefault5">
-                                                $45
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-3 col-md-6 col-6 form-check-group">
-                                        <div class="form-check form-check-radio">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-                                            <label class="form-check-label" for="flexRadioDefault6">
-                                                $50
-                                            </label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 form-check-group">
-                                        <div class="input-group">
-                                            <span class="input-group-text" id="basic-addon1">$</span>
-                                            
-                                            <input type="text" class="form-control" placeholder="Custom amount" aria-label="Username" aria-describedby="basic-addon1">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-12">
-                                        <h5 class="mt-1">Personal Info</h5>
+                                        <h5 class="mt-2 mb-3">Kişisel Bilgileriniz:</h5>
                                     </div>
 
                                     <div class="col-lg-6 col-12 mt-2">
-                                        <input type="text" name="donation-name" id="donation-name" class="form-control" placeholder="Jack Doe" required>
+                                        <input type="text" name="donation-name" id="donation-name" class="form-control" placeholder="İsim Soyisim" required>
                                     </div>
 
                                     <div class="col-lg-6 col-12 mt-2">
-                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jackdoe@gmail.com" required>
+                                        <input type="email" name="donation-email" id="donation-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="*******@gmail.com" required>
                                     </div>
-
+									<div class="col-lg-6 col-12 mt-2">
+                                        <input type="phone" name="basvuru_numara" id="basvuru-numara" class="form-control" placeholder="+90 *** *** ** **" required>
+                                    </div>
+									<div class="col-lg-6 col-12 mt-2">
+									<textarea name="volunteer-message" rows="3" class="form-control" id="volunteer-message" placeholder="Sormaktan Çekinmeyin"></textarea>
+									</div>
+									
                                     <div class="col-lg-12 col-12">
-                                        <h5 class="mt-4 pt-1">Choose Payment</h5>
+                                        <h5 class="mt-4 pt-1">Sizinle Nasıl iletişime Geçelim?</h5>
                                     </div>
 
                                     <div class="col-lg-12 col-12 mt-2">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault9">
                                             <label class="form-check-label" for="flexRadioDefault9">
-                                                <i class="bi-credit-card custom-icon ms-1"></i>
-                                                Debit or Credit card
+											Beni Ara
                                             </label>
                                         </div>
 
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" name="DonationPayment" id="flexRadioDefault10">
                                             <label class="form-check-label" for="flexRadioDefault10">
-                                                <i class="bi-paypal custom-icon ms-1"></i>
-                                                Paypal
+                                                Bana Mail At
                                             </label>
                                         </div>
 
-                                        <button type="submit" class="form-control mt-4">Submit Donation</button>
+                                        <button type="submit" class="form-control mt-4">Bize Ulaşın</button>
                                     </div>
                                 </div>
                             </form>
@@ -274,50 +212,50 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-12 mb-4">
-                        <img src="images/logo.png" class="logo img-fluid" alt="">
+                        <img src="images/kylogo.png" style="width:250px;height:250px;" class="logo img-fluid" alt="">
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-12 mb-4">
-                        <h5 class="site-footer-title mb-3">Quick Links</h5>
+                        <h5 class="site-footer-title mb-3">Hızlı linkler</h5>
 
                         <ul class="footer-menu">
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Our Story</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Hakkımızda</a></li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Newsroom</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Bilgi al</a></li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Causes</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Yol Haritası</a></li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Become a volunteer</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Kurslar Hakkında</a></li>
 
-                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Partner with us</a></li>
+                            <li class="footer-menu-item"><a href="#" class="footer-menu-link">Bize Katılın</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-4 col-md-6 col-12 mx-auto">
-                        <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+                        <h5 class="site-footer-title mb-3">İletişim Bilgileri</h5>
 
                         <p class="text-white d-flex mb-2">
                             <i class="bi-telephone me-2"></i>
 
                             <a href="tel: 120-240-9600" class="site-footer-link">
-                                120-240-9600
+                                +90 123 456 78 89
                             </a>
                         </p>
 
                         <p class="text-white d-flex">
                             <i class="bi-envelope me-2"></i>
 
-                            <a href="mailto:donate@charity.org" class="site-footer-link">
-                                donate@charity.org
+                            <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                Gerontologs@info.com
                             </a>
                         </p>
 
                         <p class="text-white d-flex mt-3">
                             <i class="bi-geo-alt me-2"></i>
-                            Akershusstranda 20, 0150 Oslo, Norway
+                            Ankara-Eryaman 06000	
                         </p>
 
-                        <a href="#" class="custom-btn btn mt-3">Get Direction</a>
+                        <a href="#" class="custom-btn btn mt-3">Danışmanlık al</a>
                     </div>
                 </div>
             </div>
@@ -327,8 +265,8 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-md-7 col-12">
-                            <p class="copyright-text mb-0">Copyright © 2036 <a href="#">Kind Heart</a> Charity Org.
-                        	Design: <a href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+                            <p class="copyright-text mb-0">Copyright © 2024 <a href="#">Gerontologs</a>.com
+                        	Design: <a href="#" target="_blank">Mr.Phrog</a></p>
                         </div>
                         
                         <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
@@ -350,7 +288,7 @@
                                 </li>
 
                                 <li class="social-icon-item">
-                                    <a href="https://youtube.com/templatemo" class="social-icon-link bi-youtube"></a>
+                                    <a href="#" class="social-icon-link bi-youtube"></a>
                                 </li>
                             </ul>
                         </div>
